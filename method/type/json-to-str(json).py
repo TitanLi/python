@@ -15,7 +15,7 @@ print(dumpsData)
 # loads (dict)
 loadsData = json.loads(json.dumps(data))
 print(type(loadsData))
-# <type 'str'>
+# <type 'dict'>
 print(loadsData['keyData'])
 # value
 
